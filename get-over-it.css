@@ -73,3 +73,7 @@ input {
   text-transform: capitalize;
   color: #F2F2F2;
 }
+
+p#error-message {
+  color: red;
+}

@@ -8,5 +8,11 @@ signUpForm.addEventListener('submit', function(event) {
   console.log(email)
   console.log(password)
   console.log(passwordConfirm)
+  if (password !== passwordConfirm) {
+    const errMessageContainer = document.getElementById('error-message')
+    errMessageContainer.innerText = "Mật khẩu không khớp, nhập lại đê bạn eii"
+  } else {
+    
+  }
 
 })
