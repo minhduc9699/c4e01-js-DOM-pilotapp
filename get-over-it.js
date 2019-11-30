@@ -1,9 +1,10 @@
 const signUpForm = document.getElementById('form-signup')
 
-signUpForm.addEventListener('submit', function() {
-  const email = document.getElementById('email-input')
-  const password = document.getElementById('password-input')
-  const passwordConfirm = document.getElementById('password-confirm')
+signUpForm.addEventListener('submit', function(event) {
+  event.preventDefault();
+  const email = document.getElementById('email-input').value
+  const password = document.getElementById('password-input').value
+  const passwordConfirm = document.getElementById('password-confirm').value
   console.log(email)
   console.log(password)
   console.log(passwordConfirm)
