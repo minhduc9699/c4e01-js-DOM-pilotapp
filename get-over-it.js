@@ -25,7 +25,7 @@ signUpForm.addEventListener('submit',async function(event) {
       }
     });
     const data = await response.json()
-    return data
+    
   }
 
 })
