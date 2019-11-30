@@ -25,7 +25,8 @@
   color: #828282;
 }
 
-#signup-form {
+#signup-form,
+#signin-form {
   width: 442px;
   height: 360px;
   background: #FFFFFF;
@@ -34,13 +35,14 @@
   padding: 60px 40px;
 }
 
-.signup {
+.signup, 
+.signin {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-input {
+.input-group input {
   width: 346px;
   height: 37px;
   background: #FFFFFF;
@@ -55,6 +57,12 @@ input {
 
 .input-group input,
 .input-group label {
+  margin-left: 40px;
+}
+
+.form-option {
+  margin-top: 11px;
+  margin-bottom: 24px;
   margin-left: 40px;
 }
 
