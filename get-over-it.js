@@ -24,8 +24,5 @@ signUpForm.addEventListener('submit',async function(event) {
         "Content-type": "application/json"
       }
     });
-    const data = await response.json()
-    
   }
-
 })
